@@ -8,7 +8,7 @@ Multithreaded rendering, DirectX 12, NVIDIA DLAA and global illumination for **C
 ## Установка
 
 1. Нужен Crysis 1.2.1, 64 бита (сборка 6156): Steam, GOG или диск с патчем 1.2.1.
-2. Поставьте [c1-launcher v8](https://github.com/ccomrade/c1-launcher/releases) как `Bin64\Crysis.exe`. Он исправляет вылеты 64-битной игры. Без него CryMT не включается.
+2. Нужен [c1-launcher](https://github.com/ccomrade/c1-launcher/releases) как `Bin64\Crysis.exe`: GOG ставит v7 сам, подходит v7 или v8. Вылеты 64-битной игры из-за памяти выше 4 ГБ CryMT исправляет сам, если в c1-launcher этого исправления нет (оно есть только в v8).
 3. Распакуйте `CryMT-v<N>.zip` в папку игры (туда, где `Bin64`).
 4. Запустите `CryMT\CryMTLauncher.exe`, выберите режим и нажмите «Играть».
 
@@ -27,7 +27,7 @@ Multithreaded rendering, DirectX 12, NVIDIA DLAA and global illumination for **C
 ## Install
 
 1. You need Crysis 1.2.1, 64-bit (build 6156): Steam, GOG or disc with patch 1.2.1.
-2. Put [c1-launcher v8](https://github.com/ccomrade/c1-launcher/releases) in place as `Bin64\Crysis.exe`. It fixes the 64-bit game's crashes, and CryMT stays off without it.
+2. [c1-launcher](https://github.com/ccomrade/c1-launcher/releases) is needed as `Bin64\Crysis.exe` (GOG installs v7): v7 or v8. Only v8 fixes the 64-bit game's crashes with memory above 4 GB; with an older one CryMT applies its own fix.
 3. Unpack `CryMT-v<N>.zip` into the game folder (where `Bin64` is).
 4. Start `CryMT\CryMTLauncher.exe`, pick a mode and press Play.
 
